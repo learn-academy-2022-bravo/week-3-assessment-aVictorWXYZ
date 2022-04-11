@@ -11,7 +11,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer:the command this functions as a way to identify variables made within the current component.
 
-  Researched answer:
+  Researched answer: by how `this` is used `this` comunicates you are refering to an object. It can refer to an individual object when used in an object method or global object if used alone.
 
 
 
@@ -19,31 +19,31 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: react is one of afew ways to provide functionality as well as utility in html
 
-  Researched answer:
+  Researched answer: React allows a webpage to update without requireing a full reload of the page.
 
 
 
 3. Which lifecycle method is required in a React class component?
 
-  Your answer:I can't recall at this time as ive used prior work to start up a class every time ive had to make a new one. It is 3 lines below class that ends with this.state.
+  Your answer: I can't recall at this time as ive used prior work to start up a class every time ive had to make a new one. It is 3 lines below class that ends with this.state.
 
-  Researched answer:
+  Researched answer: Render is requierd to create a component
 
 
 
 4. What is JSX? What is one notable difference between HTML and JSX?
 
-  Your answer: JSX is the utilization of JS in an HTML setting
+  Your answer: JSX is the utilization of JS in an HTML setting, html can be found in JSX but JavaScript cant be found in HTML
 
-  Researched answer:
+  Researched answer: JSX is the utilization of JS in an HTML setting and differs in its ability to link two seperate code languages into one
 
 
 
 5. What is yarn? What file(s) are modified in a React application when you run yarn?
 
-  Your answer:module mode
+  Your answer:a package manager, module mode
 
-  Researched answer:
+  Researched answer: Yarn is a software packaging system developed by Facebook. Running yarn will prepare your computer to be able to run yarn commands as well as react by creating a node_modules folder and its contents.
 
 
 
@@ -56,12 +56,12 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
 ## Looking Ahead: Terms for Next Week
 
-1. Conditional rendering:
+1. Conditional rendering: an If statement applied to rendering
 
-2. Object-oriented programming:
+2. Object-oriented programming: Code that utilizes objects as its primary way of utilizing functions and managing parameters.
 
-3. Ruby:
+3. Ruby: a programming language
 
-4. Ruby blocks:
+4. Ruby blocks: I can copy and paste but I don't understand what it or hases are
 
-5. Ruby hashes:
+5. Ruby hashes: I can copy and paste but I don't understand
