@@ -19,7 +19,7 @@ Then, research the question to expand on your answer. Even if you feel you have 
 
   Your answer: react is one of afew ways to provide functionality as well as utility in html
 
-  Researched answer: React allows a webpage to update without requireing a full reload of the page.
+  Researched answer: React allows a webpage to update without requireing a full reload of the page. That allows for the creation of user interfaces.
 
 
 

@@ -29,11 +29,6 @@ describe("findFib", () => {
     })
 })
 
-
-
-
-
-
 // Example input: 6
 // Expected output: [1, 1, 2, 3, 5, 8]
 
@@ -42,9 +37,13 @@ describe("findFib", () => {
 
 
 // b) Create the function that makes the test pass.
-
-// 
-// 
+//create function called findFib that takes in any number and returns a Fibonacci sequence that number long
+//using foundFibArray as a base so as to not require if statements to determin if the 0 placement is called place a 1 and the same for the 1 index.
+//the for loop will start at 0 and if its less than the input number -2 then it continues to run
+//the if statement checks if the input number is greater than 2 if false returns a message asking to input a number greater than 2
+//the if statement returning a true will push the sum of  foundFibArray[iteration of the for loop] and foundFibArray[iteration of the for loop +1]
+//in the case of a 3 being input then it will only iterate once as after the first iteration i will = 1 which isnt < 1 so it stops
+//in the case of a 3 being input foundFibArray will only push 1 number which in this case will be a 2
 
 const findFib = (inputNumber) => {
     let foundFibArray = [1, 1]
@@ -77,7 +76,6 @@ describe("onlyOddLtoG", () => {
     })
 })
 
-
 // a) Create a test with expect statements for each of the variables provided.
 
 
@@ -90,6 +88,12 @@ const fullArr2 = ["hello", 7, 23, -823, false, 78, null, "67", 6, "number"]
 
 
 // b) Create the function that makes the test pass.
+//the function onlyOddLtoG returns only odd numbers from lowest to greatest
+//return is before the filter so that the filtered result is returned
+//an if statement is done to find odd numbers and to remove non "number" type of inputs
+// the array is filtered and .sort ensures that the numbers are properly placed in order from lowest to greatest
+
+
 
 const onlyOddLtoG = (arr1Q2) => {
     return arr1Q2.filter(value => {
@@ -114,8 +118,8 @@ const onlyOddLtoG = (arr1Q2) => {
 describe("arraySum", () => {
     it("will take in an array of numbers and return a new array that added all prior indexes", () => {
         expect(arraySum(numbersToAdd1)).toEqual([2, 6, 51, 60])
-        // expect(arraySum(numbersToAdd2)).toEqual([0, 7, -1, 11])
-        // expect(arraySum(numbersToAdd3)).toEqual([])
+        expect(arraySum(numbersToAdd2)).toEqual([0, 7, -1, 11])
+        expect(arraySum(numbersToAdd3)).toEqual([])
     })
 })
 
@@ -131,8 +135,12 @@ const numbersToAdd3 = []
 
 // b) Create the function that makes the test pass.
 
-// if index is lower than 0 simply place value into current total sum
+
+//arraySum takes in any numbers and returns a new array with the sum of each prior index
+//holdTotal is used to hold the current total before runing the next index
+// use the .map HOF so that if index is lower than 0 simply place value into current total sum
 // else add total sum to value
+
 
 const arraySum = (addthis) => {
     let holdTotal = ""
@@ -168,3 +176,7 @@ const arraySum = (addthis) => {
 //         priorValue = value
 //     })
 // })
+
+
+// Test Suites: 1 passed, 1 total
+// Tests:       3 passed, 3 total

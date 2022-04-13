@@ -63,7 +63,7 @@
           // No need to change anything ABOVE this line ^
 
           return(
-            <div>
+            <>
             <h1>Draw a Card</h1>
             <button onClick={this.drawCard}>
               Click to Draw a Card
@@ -74,13 +74,13 @@
             <div style={this.handStyles}>
               {this.state.hand.map((card, index) => {
                 return (
-                  <div style={this.cardStyles} key={index}>
+                  <div style={cardStyles} key={index}>
                     {card}
                   </div>
                 )
               })}
             </div>
-            </div>
+            </>
           )
         }
       }
